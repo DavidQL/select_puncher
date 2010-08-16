@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <title>QL Select Puncher</title>
+    <link href="fancy.css" media="screen" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<section id='content'>
+
+			<form action="/submit" method="get" accept-charset="utf-8">
+
+				<div class="form_row">
+					<label>Auto Generated List</label>
+					<select id="user_car" name="user[car]">
+						<option value="volvo">Volvo</option>
+						<option value="ford">Ford</option>
+						<option value="mercedes">Mercedes</option>
+						<option value="audi">Audi</option>
+						<option value="mitsubishi">Mitsubishi</option>
+					</select>
+				</div>
+
+				<div class="form_row">
+					<label>Custom List</label>
+					<select id="user_number" name="user[number]">
+						<option value="1">Item 1 Blah</option>
+						<option value="2">Item 2 Blah</option>
+						<option value="3">Item 3 Blah</option>
+						<option value="4">Item 4 Blah</option>
+						<option value="5">Item 5 Blah</option>
+						<option value="6">Item 6 Blah</option>
+					</select>
+					<ul id="user_number_list" class="select_puncher_list">
+						<li name="A) One"><span name="val:1">Item One</span></li>
+						<li name="B) Two"><span name="val:2">Item Two</span></li>
+						<li name="C) Three"><span name="val:3">Item Three</span></li>
+						<li name="D) Four"><span name="val:4">Item Four</span></li>
+						<li name="E) Five"><span name="val:5">Item Five</span></li>
+						<li name="F) Siz"><span name="val:6">Item Six</span></li>
+					</ul>
+				</div>
+
+			</form>
+
+		</section>
+
+    <script src="jquery.js" type="text/javascript"></script>
+		<script src="jquery.select_puncher.js" type="text/javascript"></script>
+		<script src="thepower.js" type="text/javascript"></script>
+
+  </body>
+</html>
