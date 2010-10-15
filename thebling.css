@@ -1,0 +1,76 @@
+/* PAGE STYLE - IGNORE THIS */
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section { display: block; }
+html, body {width:100%;height:100%;margin:0;}
+body {font-family:Arial,Helvetica,sans-serif;color:#999;text-align:center;}
+#wrapper {margin:0 auto;width:850px;height:100%;padding-bottom:200px;}
+h1 {float:left;color:#333;font-size:22px;text-align:left;width:100%;padding-bottom:10px;border-bottom:1px dashed #999;}
+h2, p, select {float:left;clear:both;text-align:left;}
+p {padding:0 0 20px;margin:0;font-size:12px;}
+h2 {padding:50px 0 0;}
+a {font-family:Arial,Helvetica,sans-serif;color:#999;}
+a:hover {color:#0099ff;}
+/****************************/
+
+
+
+
+
+
+
+/*  SELECT PUNCHER CSS  */
+/*  COPY HERE DOWN      */
+ul {padding:0;}
+ul li {list-style:none;}
+select {display:none;}
+.s_p_btn {
+  float: left;
+  clear: both;
+  position: relative;
+  width: 200px;
+  height: 30px;
+  padding: 0 5px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  font-size: 15px;
+  font-family: Georgia,"Times New Roman",Serif;
+  cursor: pointer;
+}
+.s_p_btn .content {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  color:#555;
+}
+.s_p_btn .arrow {
+  position: absolute;
+  top: 6px;
+  right: 11px;
+}
+.s_p_list {
+  display: none;
+  position: absolute;
+  margin:0;
+  width: 212px;
+  height: auto;
+  -moz-box-shadow: 1px 1px 2px #666;
+  -webkit-box-shadow: 1px 1px 2px #666;
+  z-index: 9999;
+}
+.s_p_list li {
+  width: 212px;
+  background-color: #292728;
+  opacity: 0.95;
+  text-align: left;
+}
+.s_p_list li span {
+  width: 196px;
+  display: block;
+  padding:7px 8px;
+  font-size: 15px;
+  font-family: Georgia,"Times New Roman",Serif;
+  color: #fff;
+  cursor: pointer;
+}
+.s_p_list li span:hover {
+  background-color: #444;
+}
