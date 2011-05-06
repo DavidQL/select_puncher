@@ -71,7 +71,7 @@
           $list += '<li><span name="' + value + '">' + html + '</span></li>';
           
           //set selected option
-          if (obj.attr('selected') == true) $selected = html;
+          if (obj.attr('selected') == true || obj.attr('selected') === 'selected') $selected = html;
           
         });
         
